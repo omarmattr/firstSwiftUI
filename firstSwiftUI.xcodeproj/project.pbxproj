@@ -10,6 +10,9 @@
 		524BD229289DA51D00BDE5CF /* AllVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524BD228289DA51D00BDE5CF /* AllVideoView.swift */; };
 		524BD22B289DAA1C00BDE5CF /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524BD22A289DAA1C00BDE5CF /* Video.swift */; };
 		524BD22D289DACF400BDE5CF /* VideoDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524BD22C289DACF400BDE5CF /* VideoDetails.swift */; };
+		52805CF1289E3F0B002F1834 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52805CF0289E3F0B002F1834 /* GameView.swift */; };
+		52CC7D4D289E9679007A275F /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC7D4C289E9679007A275F /* Alerts.swift */; };
+		52CC7D4F289EE094007A275F /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC7D4E289EE094007A275F /* GameViewModel.swift */; };
 		52FD826D28995B9F00B95E0D /* firstSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FD826C28995B9F00B95E0D /* firstSwiftUIApp.swift */; };
 		52FD826F28995B9F00B95E0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FD826E28995B9F00B95E0D /* ContentView.swift */; };
 		52FD827128995BA100B95E0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52FD827028995BA100B95E0D /* Assets.xcassets */; };
@@ -20,6 +23,9 @@
 		524BD228289DA51D00BDE5CF /* AllVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllVideoView.swift; sourceTree = "<group>"; };
 		524BD22A289DAA1C00BDE5CF /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		524BD22C289DACF400BDE5CF /* VideoDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetails.swift; sourceTree = "<group>"; };
+		52805CF0289E3F0B002F1834 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		52CC7D4C289E9679007A275F /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
+		52CC7D4E289EE094007A275F /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
 		52FD826928995B9F00B95E0D /* firstSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firstSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52FD826C28995B9F00B95E0D /* firstSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstSwiftUIApp.swift; sourceTree = "<group>"; };
 		52FD826E28995B9F00B95E0D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -41,10 +47,21 @@
 		524BD227289DA50500BDE5CF /* listView */ = {
 			isa = PBXGroup;
 			children = (
+				524BD22A289DAA1C00BDE5CF /* Video.swift */,
 				524BD228289DA51D00BDE5CF /* AllVideoView.swift */,
 				524BD22C289DACF400BDE5CF /* VideoDetails.swift */,
 			);
 			path = listView;
+			sourceTree = "<group>";
+		};
+		52805CEF289E3EDC002F1834 /* tic-tac */ = {
+			isa = PBXGroup;
+			children = (
+				52CC7D4C289E9679007A275F /* Alerts.swift */,
+				52805CF0289E3F0B002F1834 /* GameView.swift */,
+				52CC7D4E289EE094007A275F /* GameViewModel.swift */,
+			);
+			path = "tic-tac";
 			sourceTree = "<group>";
 		};
 		52FD826028995B9F00B95E0D = {
@@ -66,9 +83,9 @@
 		52FD826B28995B9F00B95E0D /* firstSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				52805CEF289E3EDC002F1834 /* tic-tac */,
 				524BD227289DA50500BDE5CF /* listView */,
 				52FD826C28995B9F00B95E0D /* firstSwiftUIApp.swift */,
-				524BD22A289DAA1C00BDE5CF /* Video.swift */,
 				52FD826E28995B9F00B95E0D /* ContentView.swift */,
 				52FD827028995BA100B95E0D /* Assets.xcassets */,
 				52FD827228995BA100B95E0D /* Preview Content */,
@@ -157,7 +174,10 @@
 				52FD826F28995B9F00B95E0D /* ContentView.swift in Sources */,
 				524BD22B289DAA1C00BDE5CF /* Video.swift in Sources */,
 				52FD826D28995B9F00B95E0D /* firstSwiftUIApp.swift in Sources */,
+				52805CF1289E3F0B002F1834 /* GameView.swift in Sources */,
+				52CC7D4F289EE094007A275F /* GameViewModel.swift in Sources */,
 				524BD22D289DACF400BDE5CF /* VideoDetails.swift in Sources */,
+				52CC7D4D289E9679007A275F /* Alerts.swift in Sources */,
 				524BD229289DA51D00BDE5CF /* AllVideoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
