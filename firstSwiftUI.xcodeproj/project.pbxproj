@@ -16,7 +16,6 @@
 		52CC7D52289F0B37007A275F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC7D51289F0B37007A275F /* MapView.swift */; };
 		52CC7D54289F0B49007A275F /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC7D53289F0B49007A275F /* MapViewModel.swift */; };
 		52CC7D57289FA5D9007A275F /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC7D56289FA5D9007A275F /* FormView.swift */; };
-		52CC7D5D289FB094007A275F /* لأشةث.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC7D5C289FB093007A275F /* لأشةث.swift */; };
 		52FD826D28995B9F00B95E0D /* firstSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FD826C28995B9F00B95E0D /* firstSwiftUIApp.swift */; };
 		52FD826F28995B9F00B95E0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FD826E28995B9F00B95E0D /* ContentView.swift */; };
 		52FD827128995BA100B95E0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52FD827028995BA100B95E0D /* Assets.xcassets */; };
@@ -33,7 +32,7 @@
 		52CC7D51289F0B37007A275F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		52CC7D53289F0B49007A275F /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
 		52CC7D56289FA5D9007A275F /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
-		52CC7D5C289FB093007A275F /* لأشةث.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "لأشةث.swift"; sourceTree = "<group>"; };
+		
 		52FD826928995B9F00B95E0D /* firstSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firstSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52FD826C28995B9F00B95E0D /* firstSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstSwiftUIApp.swift; sourceTree = "<group>"; };
 		52FD826E28995B9F00B95E0D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -65,7 +64,7 @@
 		52805CEF289E3EDC002F1834 /* tic-tac */ = {
 			isa = PBXGroup;
 			children = (
-				52CC7D5C289FB093007A275F /* لأشةث.swift */,
+				
 				52CC7D4C289E9679007A275F /* Alerts.swift */,
 				52805CF0289E3F0B002F1834 /* GameView.swift */,
 				52CC7D4E289EE094007A275F /* GameViewModel.swift */,
@@ -209,7 +208,6 @@
 				52CC7D4D289E9679007A275F /* Alerts.swift in Sources */,
 				52CC7D52289F0B37007A275F /* MapView.swift in Sources */,
 				524BD229289DA51D00BDE5CF /* AllVideoView.swift in Sources */,
-				52CC7D5D289FB094007A275F /* لأشةث.swift in Sources */,
 				52CC7D57289FA5D9007A275F /* FormView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
