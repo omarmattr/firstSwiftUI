@@ -97,6 +97,13 @@
 			path = "list-view";
 			sourceTree = "<group>";
 		};
+		5258AE1B28E2E9EB00BC1BC2 /* 27-9 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "27-9";
+			sourceTree = "<group>";
+		};
 		527B66B928BD10AC002F4766 /* 29-8 */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,6 +175,7 @@
 		52FD826B28995B9F00B95E0D /* firstSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				5258AE1B28E2E9EB00BC1BC2 /* 27-9 */,
 				521239BC28E1B1850079DAB5 /* 26-9 */,
 				52D1149D28C49E5F009A3B98 /* 4-9 */,
 				52D1149C28C341E7009A3B98 /* 3-9 */,
